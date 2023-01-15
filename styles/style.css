@@ -1,0 +1,67 @@
+/* Ulities section */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Work Sans', sans-serif;
+}
+ul{
+  list-style: none;
+}
+
+a{
+text-decoration: none;
+color: #000000;
+}
+
+p{
+  margin: 10px 0;
+}
+
+img{
+  width: 100%;
+
+}
+
+/* Nav-bar section */
+.nav-bar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.title{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+text-align: center;
+color: #131313;
+padding-top: 50px;
+
+}
+
+.navigation{
+  padding-top: 50px;
+}
+.navigation ul{
+  display: flex;
+  
+}
+.navigation ul li{
+  list-style: none;
+  
+}
+.navigation ul li a{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #424242;
+  padding: 20px 20px;
+}
