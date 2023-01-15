@@ -6,7 +6,7 @@
 }
 
 body{
-  font-family: 'Work Sans', sans-serif;
+  /* font-family: 'Work Sans', sans-serif; */
 }
 ul{
   list-style: none;
@@ -25,6 +25,12 @@ img{
   width: 100%;
 
 }
+/* Container section */
+.container{
+  background-color:rgba(255, 144, 14, 0.1);
+  height: 1920;
+  width: 1322;
+}
 
 /* Nav-bar section */
 .nav-bar{
@@ -35,8 +41,8 @@ img{
 .title{
 font-family: 'Work Sans';
 font-style: normal;
-font-weight: 700;
-font-size: 45px;
+font-weight: 500;
+font-size: 35px;
 line-height: 53px;
 text-align: center;
 color: #131313;
@@ -58,10 +64,53 @@ padding-top: 50px;
 .navigation ul li a{
   font-family: 'Work Sans';
   font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 26px;
   text-align: center;
   color: #424242;
   padding: 20px 20px;
 }
+.navigation ul li a:hover{
+  border-bottom: 2px solid green;
+}
+
+/* Brand Sections */
+.brand{
+text-align: center;
+padding-top: 55px;
+}
+.sub-title{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 45px;
+line-height: 75px;
+text-align: center;
+color: #131313;
+}
+
+.brand article{
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 200;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+color: #727272;
+}
+
+.btn{
+  background-color: #FF900E;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 5px;
+  border: #FF900E;
+  margin-top: 10px;
+}
+
+/* cover-imgage */
+.cover-img{
+  height: 380px;
+  margin: 45px 250px;
+}
+
